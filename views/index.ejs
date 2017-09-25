@@ -1,15 +1,11 @@
 <% include partials/head %>
 
     <body>
-        <div class="col-sm-12">
-            <div class="jumbotron text-center">
-                <h2>Top Parses for Kronos</h2>
-                <ul>
-                    <% for (var idx = 0; idx < statTable.length; idx++) {%>
-                        <li><%= statTable[idx].playerName %></li>
-                    <% } %>
-                </ul>
-            </div>
-        </div>
+        <h2>Top Parses for ...</h2>
+        <ul>
+            <% for (var idx = 0; idx < statTable.length; idx++) {%>
+                <li><%= statTable[idx].playerName %></li>
+            <% } %>
+        </ul>
     </body>
 </html>
